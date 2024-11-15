@@ -1,0 +1,10 @@
+pyroblack
+tgcrypto
+uvicorn
+fastapi[all]
+python-dotenv
+aiofiles
+aiohttp
+curl_cffi
+techzdl>=1.2.6
+jwt
