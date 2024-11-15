@@ -44,7 +44,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(docs_url=None, redoc_url=None, lifespan=lifespan)
 logger = Logger(__name__)
-
+SECRET_KEY = "JHNCA8ER3NbjfCHSA89KJASCAxnjks"
 
 @app.get("/file")
 async def dl_file(request: Request):
